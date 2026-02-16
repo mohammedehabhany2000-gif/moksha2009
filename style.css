@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient( to right, rgb(248, 113, 2), red);
+    text-align: center;
+
+
+}
+
+
+
+h1{color: rgb(201, 245, 5); font-size: 100px;
+    font-style: oblique;
+ }
+ p{color:blue;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+
+
+button:hover{
+    
+    position: relative;
+    
+    transform: scale(1.95); 
+
+}
+
+.image1{
+    display: block;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    left: 145px;
+}
+
+.image1:hover{
+    transform: translateX(300px) scale(1.4) rotate(360deg);
+    transition: 2s;
+}
+
